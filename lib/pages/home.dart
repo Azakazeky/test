@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:nerproject/repetedcode.dart';
-import 'package:nerproject/category.dart';
-import 'package:nerproject/data.dart';
+import 'package:secondtest/moduel/repetedcode.dart';
+import 'package:secondtest/moduel/category.dart';
+import 'package:secondtest/data/catdata.dart';
 
 class HomePage extends StatelessWidget {
-  List<Category> categories = Dummy_Categories;
+  List<Category> categories = Categories_Data;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
